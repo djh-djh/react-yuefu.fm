@@ -1,0 +1,56 @@
+.else{
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.else .elseTop{
+    display: flex;
+    justify-content: space-between;
+}
+.else h4{
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 15px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.else h4::before{
+    content: '';
+    display: inline-block;
+    width: 3px;
+    height: 100%;
+    background-color: red;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+.elseTop div i{
+    margin-left: 10px;
+    color: #999;
+}
+.elseBottom{
+    width: 100%;
+    overflow: hidden;
+}
+.elseBottom ul{
+    width: 1500px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    transform: translateX(0px);
+    transition: all .5s;
+}
+.elseBottom li{
+    width: 150px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+}
+.elseBottom a{
+    color: #666;
+}

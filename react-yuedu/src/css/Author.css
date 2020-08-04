@@ -1,0 +1,63 @@
+.author{
+    background-color: #fff;
+}
+.author>div{
+    padding: 15px;
+    box-sizing: border-box;
+}
+.author .top{
+    display: flex;
+    height: 117px;
+    border-bottom: 1px dashed #eee;
+}
+.top div:first-child{
+    width: 30%;
+    text-align: center;
+}
+.author .top img{
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+}
+.top div:nth-child(2){
+    width: 40%;
+}
+.top h5{
+    font-size: 16px;
+    color: #7e7e7e;
+    margin-bottom: 10px;
+}
+.top p{
+    color: #999;
+    margin-bottom: 0px;
+}
+.top div:last-child{
+    width: 30%;
+}
+.top button{
+    width: 50px;
+    height: 30px;
+    line-height: 20px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    background-color: #ee5044;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.bottom{
+    font-size: 20px;
+}
+.bottom span{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eee;
+    margin: 0 10px 0 25px;
+}
+.bottom span i{
+    font-size: 24px;
+}

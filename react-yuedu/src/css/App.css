@@ -1,0 +1,57 @@
+.title{
+    height: 100px;
+    width: 100%;
+    line-height: 100px;
+    background-color: #fff;
+    font-size: 16px;
+}
+.title>div{
+    display: flex;
+}
+.title img{
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    vertical-align: text-top;
+    margin-right: 5px;
+}
+.title a{
+    color: #333;
+}
+.logo{
+    margin-right: 200px;
+}
+ 
+.title ul{
+    display: flex;
+    margin: 0;
+}
+.title ul li{
+    margin-right: 29px;
+}
+.title .red{
+    color: #ee5044;
+} 
+.login{
+    margin-left: 80px;
+}
+.login>div{
+    display: inline-block;
+}
+.login span{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.login span:hover{
+    color: #ee5044;
+}
+.content{
+    display: flex;
+    margin-top: 30px;
+}
+.content>div{
+    justify-content: space-between;
+}
+.hidden{
+    display: none;
+}
