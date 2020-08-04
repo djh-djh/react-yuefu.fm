@@ -1,0 +1,14 @@
+1.下载打开文件夹
+ 安装
+  npm install
+ 运行
+  npm start
+2 运行数据库
+3 接口使用node 
+  安装
+    npm install
+  运行
+    npm start
+    
+注意：因为接口冲突，所以可以改一下react的接口
+    https://www.cnblogs.com/CherishTheYouth/p/CherishTheYouth_20200709.html
